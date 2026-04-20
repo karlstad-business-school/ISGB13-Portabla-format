@@ -1,0 +1,67 @@
+/* Custom Styles for Global Explorer */
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-banner {
+    background: linear-gradient(rgba(0, 123, 255, 0.8), rgba(0, 86, 179, 0.9)), 
+                url('https://images.unsplash.com/photo-1526772662000-3f88f10405ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.search-container {
+    margin-top: -80px;
+    z-index: 10;
+    position: relative;
+}
+
+/* Custom Stylish Button */
+.custom-compare-btn {
+    background: linear-gradient(45deg, #28a745, #218838);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.custom-compare-btn:hover:not(:disabled) {
+    background: linear-gradient(45deg, #218838, #1e7e34);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+}
+
+.custom-compare-btn:active:not(:disabled) {
+    transform: translateY(-1px);
+}
+
+.custom-compare-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+    opacity: 0.7;
+}
+
+/* Preloader styling */
+.spinner-grow {
+    width: 3rem;
+    height: 3rem;
+}

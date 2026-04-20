@@ -1,0 +1,62 @@
+PROMPT LOGG - SESSION 2026-04-20
+
+1. i script.js:
+- Skapa fina bootstrap kort.
+- I den ska vi ha titeln på landet vi söker på. 
+- Sen img med bild på landets flagga
+- Använd unobtrusive.
+- du ska använda javascript-objektet från API:et.
+
+2. I slutkod -> script.js:
+- Fortsätt på card:
+- Lägg till en titel med bootstrap klassen card-title.
+- Titeln ska vara från API:et name.common
+- Skapa även lite brödtext, en p-tag.
+- Där vi ska lista arean från API:et, area.
+- Lägg på lite styling som du vill.
+- MEN KODEN SKA VARA UNOBTRUSIVE.
+
+3. Slutkod -> index.html:
+lägg till canvas element
+Lägg till chart.js cdn.
+Glöm inte ID på canvas elementet.
+
+I slutkod -> script.js:
+Skapa ett jättesnyggt stapeldiagram.
+Jämför alla länders population som vi söker på. 
+Gör en snygg design som passar med bootstrap designen
+
+4. slutkod script.js:
+Gör en ännu mer interaktiv stapeldiagram, 
+den ska visa jämförelsen när man klickar på en knapp. 
+Så spara alla land man sökt på i en array 
+Och sen att när man klickar på knappen visa de länder man har sökt på.
+
+Se till att det bara går att klicka på knappen när man har sökt på fler än 2 länder. 
+Lägg på en snygg design på hela sidan som passar det.
+
+5. slutkod: script.js:
+Rensa sökfältet varje gång jag söker.
+Lägg in någon snygg bakgrundsdesign.
+Lägg till en hero banner med hemsidans titel.
+
+6. slutkod script.js:
+Byt ut knappen till en ännu snyggare knapp som passar designen.
+Ta bort bootstrap designen på knappen
+Och styla den med css
+Skapa en css fil och lägg i samma projektmapp.
+
+7. slutkod alla filer:
+Byt ut all design.
+Ta bort allt med bootstrap och byt ut till tailwind.
+ÖVERALLT: 
+Vill ha hero banner fortfarande, 
+En snygg prompt som kommer upp som frågar användaren om man vill jämföra ländernas population.
+Lägg till en footer ocksp med lite info om företaget
+
+8. Nej ändra tillbaka allt som det var.
+
+9. I slutkod -> script.js:
+- Lägg till kommentarer på svenska vid api anropet. 
+- Förklarande kommentarer.
+- Skapa en logg- fil med de prompts jag har ställt till dig.
