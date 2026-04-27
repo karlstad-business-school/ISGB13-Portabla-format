@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xkcd Comic Viewer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js" defer></script>
+</head>
+<body class="bg-gray-50 text-black">
+
+    <!-- Hero Banner -->
+    <header class="bg-indigo-900 text-white py-12 mb-8 shadow-lg">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-2">XML RSS Feed</h1>
+            <p id="status" class="text-indigo-200 text-lg italic font-medium">Visar senaste comics från xkcd</p>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-3xl mx-auto px-4 pb-16">
+        
+        <!-- Comic Feed -->
+        <div id="feed" class="flex flex-col gap-12">
+            <!-- Innehåll injiceras via script.js -->
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 py-8 text-center text-gray-500 text-sm">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2026 xkcd RSS Demo - För undervisningsändamål</p>
+            <p class="mt-1">Serier av Randall Munroe (xkcd.com)</p>
+        </div>
+    </footer>
+
+</body>
+</html>
